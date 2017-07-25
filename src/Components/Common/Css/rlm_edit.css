@@ -1,0 +1,110 @@
+.rlm-edit {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #FFD428 url("../Imgs/rlm-edit.png") no-repeat center;
+  background-size: 80%;
+  position: fixed;
+  bottom: 1.5rem;
+  right: .2rem;
+  border: .1rem solid #fff; }
+
+.edit-main {
+  margin-top: .2rem;
+  color: #B5B5B5; }
+  .edit-main .edit-title, .edit-main .textarea-wrap, .edit-main .permit-wrap {
+    background: #fff;
+    width: 100%;
+    margin-bottom: .12rem; }
+  .edit-main .edit-title {
+    height: .7rem;
+    display: flex;
+    align-items: center; }
+    .edit-main .edit-title .edit-icon {
+      height: .5rem;
+      width: .5rem;
+      background: url("../Imgs/edit-title-icon.png") no-repeat center;
+      background-size: cover;
+      margin-left: .1rem; }
+    .edit-main .edit-title input {
+      margin-left: .1rem;
+      flex: 1;
+      height: 100%;
+      font-size: .26rem; }
+  .edit-main .textarea-wrap {
+    height: 3.25rem;
+    position: relative; }
+    .edit-main .textarea-wrap textarea {
+      resize: none;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      box-sizing: border-box;
+      padding: .1rem;
+      font-size: .24rem; }
+    .edit-main .textarea-wrap .address {
+      position: absolute;
+      bottom: .16rem;
+      right: .16rem;
+      font-size: .26rem;
+      display: flex;
+      align-items: center;
+      color: #6B6B6B; }
+      .edit-main .textarea-wrap .address .address-icon {
+        display: inline-block;
+        background: url("../Imgs/address-icon.png") no-repeat center;
+        height: .4rem;
+        width: .4rem;
+        background-size: cover;
+        margin-right: .1rem; }
+  .edit-main .permit-wrap {
+    box-sizing: border-box;
+    font-size: .26rem;
+    color: #494949;
+    line-height: .6rem;
+    padding: 0 .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .edit-main .permit-wrap .permit-btn {
+      display: inline-block;
+      height: .35rem;
+      width: .8rem;
+      background: #1D9DE6;
+      border-radius: .3rem;
+      position: relative; }
+      .edit-main .permit-wrap .permit-btn .permit-y {
+        display: inline-block;
+        height: .35rem;
+        width: .35rem;
+        background: #FED325;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        right: -.02rem; }
+
+.rlm-edit-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box; }
+  .rlm-edit-footer span, .rlm-edit-footer i {
+    flex: 1; }
+  .rlm-edit-footer i {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: .8rem; }
+  .rlm-edit-footer .circle-icon {
+    background-image: url("../Imgs/circle-icon.png"); }
+  .rlm-edit-footer .space-icon {
+    background-image: url("../Imgs/space-icon.png"); }
+  .rlm-edit-footer .sina-icon {
+    background-image: url("../Imgs/sina-icon.png"); }

@@ -1,0 +1,68 @@
+.xj-header {
+    height: .88rem;
+    background: #1D9DE6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff; }
+.xj-header > a {
+    color: #fff;
+    font-size: .4rem; }
+.xj-header .xj-header-center {
+    width: 6.02rem;
+    height: 0.8rem;
+    }
+form{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*background: #ffffff;*/
+}
+.xj-search{
+    width: 0.8rem;
+    height: 100%;
+    background: #eeeeee;
+    color: #1cacff;
+    font-size: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 82%;
+    outline:none;
+    height: 100%;
+    border: none;
+    font-size: 0.24rem;
+}
+.xj_voice{
+    width: 0.8rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 44444;
+    background: #ffffff;
+}
+.xj_voice ul{
+    width: 0.5rem;
+    height: 0.5rem;
+    border: 1px solid #cecece;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.xj-mic{
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1px solid #cecece;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .4rem;
+    color: #aeaeae;
+}
